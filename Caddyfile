@@ -1,0 +1,8 @@
+{
+    auto_https off
+}
+
+http://blog-old-star-2817.fly.dev {
+  root * /usr/share/caddy
+  file_server
+}

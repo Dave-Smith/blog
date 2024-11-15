@@ -1,4 +1,42 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog-old-star-2817.fly.dev'
 languageCode = 'en-us'
 title = 'Dave Smith'
 theme = 'PaperMod'
+
+
+enableRobotsTXT = true
+buildFuture = false
+buildExpired = false
+
+[params]
+Title = "Hey, I’m Dave 👋"
+Content = "I am a software engineer & mediocre runner. I pay the bills with .NET and JavaScript, geek out on Go, and dream of getting lost in the woods. I write about my side quests in software development and running while trying to do actual work...  I’m actively exploring the world of technology and trying to not get lost"
+
+ShowShareButtons = true
+ShowCopyCodeButtons = true
+Author = "Me"
+comments = "true"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/smithcommadave"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/dave-smith"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/smithcommadave/"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 20
