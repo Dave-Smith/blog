@@ -9,25 +9,33 @@ buildFuture = false
 buildExpired = false
 
 [params]
-Title = "Hey, I’m Dave 👋"
-Content = "I am a software engineer & mediocre runner. I pay the bills with .NET and JavaScript, geek out on Go, and dream of getting lost in the woods. I write about my side quests in software development and running while trying to do actual work...  I’m actively exploring the world of technology and trying to not get lost"
-
 ShowShareButtons = true
 ShowCopyCodeButtons = true
 Author = "Me"
+AuthorImage = "images/me.jpg"
 comments = "true"
+disableSpecial1stPost = true
+customCSS = ["css/custom.css"]
 
-  [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/smithcommadave"
+[params.homeInfoParams]
+Title = "Hey, I’m Dave 👋"
+Content = "I run code by day, and run trails by night. I'm a software engineer who debugs in .NET and JavaScript, compiles miles in the woods, and occasionally catches a runtime error on the running track. When I'm not deploying applications, I'm deploying myself into nature - though my Go skills are currently faster than my actual go speed"
 
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/dave-smith"
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/smithcommadave"
 
-  [[params.socialIcons]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/smithcommadave/"
+[[params.socialIcons]]
+name = "bluesky"
+url = "https://bluesky.app/davesmith.dev"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/dave-smith"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/smithcommadave/"
 
 [[menu.main]]
 identifier = "home"
@@ -40,3 +48,9 @@ identifier = "posts"
 name = "Blog"
 url = "/posts/"
 weight = 20
+
+[[menu.main]]
+identifier = "notes"
+name = "Notes"
+url = "/notes/"
+weight = 30
