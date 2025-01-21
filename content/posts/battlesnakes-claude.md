@@ -4,11 +4,11 @@ draft = false
 title = 'Building a Battlesnake - How I Let Claude Do All the Hissing'
 +++
 
-This year was my second time building a Battlesnake. With the experience from a couple of years ago, I wanted to do something different. Last time I used the experience to learn a new language - Go (Go is great btw). I planned on using the same language and I definitely planned on using AI to help with writing the code this time around. Then the idea hit me.
+This year was my second time building a [Battlesnake](https://play.battlesnake.com). With the experience from a couple of years ago, I wanted to do something different. Last time I used the experience to learn a new language - Go (Go is great btw). I planned on using the same language and I definitely planned on using AI to help with writing the code this time around. Then the idea hit me.
 
 I didn't write any of the code. Huh? I used [Claude AI](https://claude.ai) to **generate all the code**. Well, kinda - I wrote the http server part to route a request to a function. If you were curious why I named my snake Claudia, well thats why.
 
->If you are curious what the code looks like see for yourself - https://github.com/Dave-Smith/Battlesnake-go-2025.
+>What the heck is a Battlesnake? You've played the snake game, right? Same thing, except your code decides the next move. Host your code as an API that accepts a POST request and respond with your next move. If you are curious what my code looks like, see for yourself - https://github.com/Dave-Smith/Battlesnake-go-2025.
 
 I'm not talking about using Copilot autocomplete. I gave Claude an example http request body, described the rules of the game and asked it to generate the necessary in Go to move a battlesnake. A quick ctrl-c, ctrl-v later and the generated code was hooked up to an http endpoint. I ran the code and it worked!
 
