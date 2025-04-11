@@ -2,7 +2,7 @@ baseURL = 'https://www.davesmith.dev'
 languageCode = 'en-us'
 title = 'Dave Smith'
 theme = 'PaperMod'
-
+enableEmoji = true
 
 enableRobotsTXT = true
 buildFuture = false
@@ -48,9 +48,3 @@ identifier = "posts"
 name = "Blog"
 url = "/posts/"
 weight = 20
-
-[[menu.main]]
-identifier = "notes"
-name = "Notes"
-url = "/notes/"
-weight = 30
