@@ -1,3 +1,8 @@
++++ 
+date = '2025-07-08T07:13:30-06:00' 
+draft = false 
+title = 'AI Literacy - Its a Thing' 
++++
 
 ## AI Literacy
 
