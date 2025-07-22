@@ -18,8 +18,16 @@ disableSpecial1stPost = true
 customCSS = ["css/custom.css"]
 
 [params.homeInfoParams]
-Title = "Hey, I’m Dave 👋"
-Content = "I run code by day, and run trails by night. I'm a software engineer who debugs in .NET and JavaScript, compiles miles in the woods, and occasionally catches a runtime error on the running track. When I'm not deploying applications, I'm deploying myself into nature - though my Go skills are currently faster than my actual go speed"
+Title = "Hi, I’m Dave 👋"
+Content = """
+I occupy the small intersection of people who love writing code and people who think running really, really, long miles is actually fun 🏃‍➡️
+
+{{< new_line >}}
+I'm based in the midwest as a lead software developer pushing out code for the often ignored but quite interesting bond markets (no, not jail bonds, think treasuries and munis). When I get some time away from the compiler I will likely be out for a run on the Ice Age trail
+
+{{< new_line >}}
+In addition to race reports and training updates, I enjoy writing about Go. C#, JavaScript and SQL are my day-to-day so I have a lot to say about those. You'll see me writing about  AI dev tooling and machine learning in financial services as I work these tools
+"""
 
 [[params.socialIcons]]
 name = "twitter"
@@ -54,3 +62,6 @@ identifier = "notes"
 name = "Notes"
 url = "/notes/"
 weight = 30
+
+[security]
+  enableInlineShortcodes = true
